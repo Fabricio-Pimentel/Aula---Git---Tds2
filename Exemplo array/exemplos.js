@@ -43,3 +43,8 @@ let paises = ["Brasil", "Argentina", "Chile"]
 paises.unshift("Uruguai")
 console.log(paises)
 
+//mostrando todos os elementos do array com for
+let frutas = ["maçã", "banana", "laranja", "uva"]
+for (let i = 0; i < frutas.lenght; i++) {
+    console.log(frutas[i])
+}
